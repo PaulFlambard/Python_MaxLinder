@@ -34,6 +34,8 @@ def styl_vt(n): #n nb de stylos#
     return 0.85 * (0.7*n) 
     #pas de else & on aligne ce dernier return avec les if#
 
+print(styl_vt(10), styl_vt(50), styl_vt(300))
+
 liste = [2, 4, 7.8 , 'plop'] #exemple de liste#
 
 cpt = 1
